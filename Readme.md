@@ -33,9 +33,9 @@ Shadow OS is a small simple operating system made in C# using Cosmos.
 * CryptoTool - Hashing algorithms written by [@yuriks](https://github.com/yuriks) and the dewitcher Team, improved by the [Aura Team](https://github.com/aura-systems)
 
 # Screenshots  
-![Screen](Screenshot.jpg)
-![Help](Screenshot1.jpg)
-![sysinfo](Screenshot2.jpg)
+![Screen](Screenshot.png)
+![Help](Screenshot1.png)
+![sysinfo](Screenshot2.png)
 
 # Documention - still  in  progress
 
