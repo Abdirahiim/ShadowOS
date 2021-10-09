@@ -24,6 +24,5 @@ jobs:
    
     - name: Build Shadow Operating System
       run: |
-        cd "ShadowOS"
         msbuild "ShadowOS.sln" /t:Restore
         msbuild "ShadowOS.sln" /maxcpucount
