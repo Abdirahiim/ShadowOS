@@ -26,10 +26,10 @@ jobs:
         mkdir Cosmos
         mkdir c:/CosmosRun
         cd Cosmos
-        git clone https://github.com/CosmosOS/Common
-        git clone https://github.com/CosmosOS/IL2CPU
-        git clone https://github.com/CosmosOS/Cosmos
-        git clone https://github.com/CosmosOS/XSharp
+        git clone https://github.com/aura-systems/Common
+        git clone https://github.com/aura-systems/IL2CPU
+        git clone https://github.com/aura-systems/Cosmos
+        git clone https://github.com/aura-systems/XSharp
     - name: Build Cosmos
       run: |
         cd Cosmos/Cosmos
@@ -78,6 +78,6 @@ jobs:
         Copy-Item -Path "Cosmos\Cosmos\source\Cosmos.Debug.Kernel.Plugs.Asm\bin\Debug\netstandard2.0\*" -Destination "C:\Users\runneradmin\AppData\Roaming\Cosmos User Kit\Kernel\" -Force
     - name: Build ShadowOS Operating System
       run: |
-        cd ShadowOS
+        cd D:\a\ShadowOS\ShadowOS
         msbuild "ShadowOS.sln" /t:Restore
         msbuild "ShadowOS.sln" /maxcpucount
