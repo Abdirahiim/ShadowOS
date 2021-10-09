@@ -26,10 +26,10 @@ jobs:
         mkdir Cosmos
         mkdir c:/CosmosRun
         cd Cosmos
-        git clone https://github.com/cosmosos/Common
-        git clone https://github.com/cosmosos/IL2CPU
-        git clone https://github.com/cosmosos/Cosmos
-        git clone https://github.com/cosmosos/XSharp
+        git clone https://github.com/aura-systems/Common
+        git clone https://github.com/aura-systems/IL2CPU
+        git clone https://github.com/aura-systems/Cosmos
+        git clone https://github.com/aura-systems/XSharp
     - name: Build Cosmos
       run: |
         cd Cosmos/Cosmos
