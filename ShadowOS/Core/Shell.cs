@@ -16,8 +16,8 @@ namespace Shadow_OS.Core
         public static void Prompt(string cmdline)
         {
 
-            string commandlower = cmdline.ToLower();
-            string command = commandlower.Trim();
+            string commandLower = cmdline.ToLower();
+            string command = commandLower.Trim();
 
             if (command == "ver")
             {

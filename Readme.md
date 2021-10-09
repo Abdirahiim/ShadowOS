@@ -26,7 +26,7 @@ Shadow OS is a small simple operating system made in C# using Cosmos.
 
 ## Programs
 
-* MIV: a simplistic VIM editor - developed by [@bartashevich](https://github.com/bartashevich) 
+* MIV: a minimalistic VIM editor - developed by [@bartashevich](https://github.com/bartashevich) 
 
 * Snake: a snake game - developed by [@bartashevich](https://github.com/bartashevich)
 
