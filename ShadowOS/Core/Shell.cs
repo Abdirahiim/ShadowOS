@@ -104,7 +104,6 @@ namespace Shadow_OS.Core
                 catch (Exception ex)
                 {
                     Log.Crash(errorMessage: ex, errorCode: ErrorHandler.FileSystem.DirCommandErrorCode, errorType: "Filesystem");
-                    //CrashHandler.DirCommandError();
                     CrashHandler.FileSystemError(errorCode: ErrorHandler.FileSystem.DirCommandErrorCode);                   
                 }
 
@@ -135,7 +134,6 @@ namespace Shadow_OS.Core
                     else
                     {
                         Log.Crash(errorMessage: ex, errorCode: ErrorHandler.FileSystem.DeleteFileErrorCode, errorType: "Filesystem");
-                      //  CrashHandler.DeleteFileError();
                         CrashHandler.FileSystemError(errorCode: ErrorHandler.FileSystem.DeleteFileErrorCode);
                     }
                 }
@@ -164,7 +162,6 @@ namespace Shadow_OS.Core
                     else
                     {
                         Log.Crash(errorMessage: ex, errorCode: ErrorHandler.FileSystem.CreateFileErrorCode, errorType: "Filesystem");
-                        //CrashHandler.CreateFileError();
                         CrashHandler.FileSystemError(errorCode: ErrorHandler.FileSystem.CreateFileErrorCode);
 
                     }

@@ -18,7 +18,6 @@ namespace Shadow_OS.Core
 
         public static string ComputerName = "shadow-pc";
         public static string CurrentDirectory = @"0:\";
-        //public static List<string> Directories = new List<string>();
         public static string CurrentVolume = @"0:\";
         public static string CurrentVersion = @"Shadow OS [v0.0.1]";
         public static DriveInfo PrimaryDrive = new DriveInfo("0");
@@ -111,10 +110,9 @@ namespace Shadow_OS.Core
 
                         Console.ForegroundColor = ConsoleColor.White;
 
-                        string cmd = Console.ReadLine(); //takes the input
+                        string cmd = Console.ReadLine();
 
-
-                        Shell.Prompt(cmd); //takes the input and processes it in the Shell class
+                        Shell.Prompt(cmd); //processes the input in the Shell class
                   }
                   else
                   {
@@ -124,20 +122,19 @@ namespace Shadow_OS.Core
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.Write("@" + ComputerName + ":-");
 
-                        string ModifiedCurrentDirectory = CurrentDirectory.Trim('0', '\\', ':');
+                        string modifiedCurrentDirectory = CurrentDirectory.Trim('0', '\\', ':');
                         Console.ForegroundColor = ConsoleColor.Gray;
-                        Console.Write(ModifiedCurrentDirectory);
+                        Console.Write(modifiedCurrentDirectory);
 
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.Write("$ ");
 
                         Console.ForegroundColor = ConsoleColor.White;
 
-                        string cmd = Console.ReadLine(); //takes the input
+                        string cmd = Console.ReadLine();
 
-                    
-                        Shell.Prompt(cmd); //takes the input and processes it in the Shell class
-                    }
+                        Shell.Prompt(cmd); //processes the input in the Shell class
+                  }
                 }
                 else
                 {
