@@ -108,15 +108,15 @@ namespace Shadow_OS.Translation
             switch (Kernel.Lang)
             {
                 case "en_us":
-                    Console.WriteLine("Description: Lists all the files and directories of the current directory");
+                    Console.WriteLine("Description: Lists everything in the current directory");
                     break;
 
                 case "da":
-                    Console.WriteLine("Beskrivelse: Lister alle filer og mapper i det nuværende mappe");
+                    Console.WriteLine("Beskrivelse: Lister alt i det nuværende mappe");
                     break;
 
                 case "so":
-                    Console.WriteLine("Faafaahin: Wuxu taxahaya faylasha iyo direktoriisga ku jira direktoriga aad joogtid");
+                    Console.WriteLine("Faafaahin: Wuxu taxahaya wax walba ee ku jira direktoriga aad joogtid");
                     break;
 
             }

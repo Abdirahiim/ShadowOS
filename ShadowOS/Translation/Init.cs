@@ -25,7 +25,7 @@ namespace Shadow_OS.Translation
                 }
             else
             {
-                Kernel.Lang = "en_us";
+                TranslationSetup();
             }
         }
 

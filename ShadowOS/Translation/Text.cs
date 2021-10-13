@@ -14,18 +14,19 @@ namespace Shadow_OS.Translation
                 case "en_us":
                     Console.WriteLine(@"
                 Usage: help
-                      [commmand] --help
+                       [commmand] --help
                 - reboot (reboots the system)
                 - shutdown (shutdowns the system)
                 - clear (clears the screen)
                 - log (shows information about the latest logs)
                 - systeminfo (fetches the system information)
                 - diskinfo (fetches the disk information)
+                - dir (lists everything in the current directory)
                 - cd (navigate to a different directory)
                 - del (delete the specified file)
                 - touch (create a new file)
                 - cat (read a file)
-                - rmdir (remove a directory)
+                 - rmdir (remove a directory)
                 - mkdir (create a new directory)
                 - miv (opens the MIV editor)
                 - snake (opens the snake game)
@@ -35,13 +36,14 @@ namespace Shadow_OS.Translation
                 case "da":
                     Console.WriteLine(@"
                Brug: help
-                      [kommando] --help
+                     [kommando] --help
                 - reboot (genstarter systemet)
                 - shutdown (lukker systemet ned)
                 - clear (rydder skærmen)
                 - log (viser information om de seneste crash logs)
                 - systeminfo (henter systemoplysningernene)
                 - diskinfo (henter diskoplysningerne)
+                - dir (lister alt i det nuværende mappe)
                 - cd (naviger til den oenskede sti)
                 - del (slet den angivne fil)
                 - touch (skab en ny fil)
@@ -55,23 +57,24 @@ namespace Shadow_OS.Translation
                     break;
                 case "so":
                     Console.WriteLine(@"
-                Isticmaalid: help
-                            [amar] --help
-                - reboot (wuxu dib u daaraya system ka)
-                - shutdown (wuxu xidhaya system ka)
-                - clear (wuxu masaxaya shaashada)
-                - log (wuxu ku tusaya crash logs ga ugu dambyeeys)
-                - systeminfo (wuxu soo qabanaya macluumaadka system ka)
-                - diskinfo (wuxu soo qabanaya macluumaadka dhisgika)
-                - cd (qabo direktoriga aad doonaysid)
-                - del (masax faylka aad u sheegtid)
-                - touch (samee fayl cusub)
-                - cat (akhri fayl)
-                - rmdir (masax direktori)
-                - mkdir (samee direktori cusub)
-                - miv (wuxu furaya MIV)
-                - snake (wuxu furaya ciyaarta Snake)
-                - cryptotool (wuxu ku tusaya hash ga waxaad gelisid)
+             Isticmaalid: help
+                          [amar] --help
+             - reboot (wuxu dib u daaraya system ka)
+             - shutdown (wuxu xidhaya system ka)
+             - clear (wuxu masaxaya shaashada)
+             - log (wuxu ku tusaya crash logs ga ugu dambyeeys)
+             - systeminfo (wuxu soo qabanaya macluumaadka system ka)
+             - diskinfo (wuxu soo qabanaya macluumaadka dhisgika)
+             - dir (wuxu taxahaya wax walba ee ku jira direktoriga aad joogtid)
+             - cd (qabo direktoriga aad doonaysid)
+             - del (masax faylka aad u sheegtid)
+             - touch (samee fayl cusub)
+             - cat (akhri fayl)
+             - rmdir (masax direktori)
+             - mkdir (samee direktori cusub)
+             - miv (wuxu furaya MIV)
+             - snake (wuxu furaya ciyaarta Snake)
+             - cryptotool (wuxu ku tusaya hash ga waxaad gelisid)
                                         ");
                     break;
 
