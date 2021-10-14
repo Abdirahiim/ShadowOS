@@ -7,6 +7,7 @@ using Shadow_OS.Apps.TextEditor;
 using Shadow_OS.Apps.Games;
 using Shadow_OS.Translation;
 using Shadow_OS.Apps;
+using Shadow_OS.Terminal;
 
 namespace Shadow_OS.Core
 {
@@ -57,19 +58,17 @@ namespace Shadow_OS.Core
                 {
                     if (command.Contains("--help"))
                     {
-                        Help.CommandClear();
+                        ClearCMD.PrintHelp();
                     }
                     else
                     {
-                        Console.Clear();
-                        Console.WriteLine(Kernel.Logo);
-
+                        ClearCMD.Clear();
                     }
                 }
                 catch (Exception ex)
                 {
 
-                    Log.Crash(errorMessage: ex, errorCode: Terminal.ClearCommandErrorCode, errorType: "Terminal");
+                    Log.Crash(errorMessage: ex, errorCode: ErrorHandler.Terminal.ClearCommandErrorCode, errorType: "Terminal");
                 }
 
             }
@@ -77,12 +76,12 @@ namespace Shadow_OS.Core
             {
                 try
                 {
-                    Text.Help(); 
+                    HelpCMD.Help();
                 }
                 catch (Exception ex)
                 {
 
-                    Log.Crash(errorMessage: ex, errorCode: Terminal.HelpCommandErrorCode, errorType: "Terminal");
+                    Log.Crash(errorMessage: ex, errorCode: ErrorHandler.Terminal.HelpCommandErrorCode, errorType: "Terminal");
                 }
 
             }
