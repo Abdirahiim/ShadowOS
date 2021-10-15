@@ -26,7 +26,7 @@ namespace Shadow_OS.Translation
                 - del (delete the specified file)
                 - touch (create a new file)
                 - cat (read a file)
-                 - rmdir (remove a directory)
+                - rmdir (remove a directory)
                 - mkdir (create a new directory)
                 - miv (opens the MIV editor)
                 - snake (opens the snake game)
