@@ -275,15 +275,15 @@ namespace Shadow_OS.Translation
                 case "en_us":
                     Console.WriteLine("Description:   shows information about the latest crash logs");
                     Console.WriteLine("Usage:   log [option]");
-                    Console.WriteLine("--system             shows the latest system crash");
-                    Console.WriteLine("--normal             shows the latest non-kernel crash logs");
+                    Console.WriteLine("--system             shows the latest system crash log");
+                    Console.WriteLine("--normal             shows the latest non-kernel crash log");
                     Console.WriteLine("--app                shows the latest app crash log");
                     break;
 
                 case "da":
                     Console.WriteLine("Beskrivelse:   viser information om de seneste crash logs");
                     Console.WriteLine("Brug:   log [valg]");
-                    Console.WriteLine("--system             viser den seneste system crash");
+                    Console.WriteLine("--system             viser den seneste system crash log");
                     Console.WriteLine("--normal             Viser den seneste ikke kernel crash log");
                     Console.WriteLine("--app                viser den seneste app crash log");
                     break;

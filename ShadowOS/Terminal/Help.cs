@@ -3,7 +3,7 @@ using Shadow_OS.Translation;
 
 namespace Shadow_OS.Terminal
 {
-    class HelpCMD
+    class CommandHelp
     {
         public static void Help()
         {

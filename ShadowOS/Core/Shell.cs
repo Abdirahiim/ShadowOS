@@ -58,11 +58,11 @@ namespace Shadow_OS.Core
                 {
                     if (command.Contains("--help"))
                     {
-                        ClearCMD.PrintHelp();
+                        CommandClear.PrintHelp();
                     }
                     else
                     {
-                        ClearCMD.Clear();
+                        CommandClear.Clear();
                     }
                 }
                 catch (Exception ex)
@@ -76,7 +76,7 @@ namespace Shadow_OS.Core
             {
                 try
                 {
-                    HelpCMD.Help();
+                    CommandHelp.Help();
                 }
                 catch (Exception ex)
                 {
