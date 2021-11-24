@@ -4,7 +4,7 @@ using Shadow_OS.Core;
 
 namespace Shadow_OS.Terminal
 {
-    class ClearCMD
+    class CommandClear
     {
         public static void Clear()
         {

@@ -39,6 +39,6 @@ Shadow OS is a small simple operating system made in C# using Cosmos.
 
 # Documention - still  in  progress
 
-* User documentation
+* [User documentation](https://github.com/Abdirahiim/ShadowOS/wiki/User-Documentation)
 
-* Developer documentation
+* Developer documentation (still  in  progress)

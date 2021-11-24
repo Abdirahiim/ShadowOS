@@ -7,8 +7,8 @@ namespace Shadow_OS.ErrorHandler
     {
         public static string ShutdownCommandErrorCode = "300";
         public static string RebootCommandErrorCode = "301";
-        public static string SystemInfoErrorCode = "303";
-        public static string DiskInfoErrorCode = "304";
-        public static string LogErrorCode = "305";
+        public static string SystemInfoErrorCode = "302";
+        public static string DiskInfoErrorCode = "303";
+        public static string LogErrorCode = "304";
     }
 }

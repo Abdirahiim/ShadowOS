@@ -100,21 +100,21 @@ namespace Shadow_OS.Translation
                     Console.WriteLine($"Host             :  {Kernel.ComputerName}");
                     Console.WriteLine("OS               :  ShadowOS");
                     Console.WriteLine($"OS Version       :  {Kernel.CurrentVersion}");
-                    Console.WriteLine($"Total hukommelse     :  {SystemInfo.GetAmountRAM()}");
+                    Console.WriteLine($"Total hukommelse :  {SystemInfo.GetAmountRAM()}");
                     Console.WriteLine($"Processor        :  {SystemInfo.GetCPUDetails()}");
-                    Console.WriteLine($"System Boot Tid :  {Kernel.BootHour}:{Kernel.BootMinute}:{Kernel.BootSecond}");
-                    Console.WriteLine($"System sprog    :  {Kernel.Lang}");
-                    Console.WriteLine("Udviklet af     :  Abdirahiim Yassin");
+                    Console.WriteLine($"System Boot Tid  :  {Kernel.BootHour}:{Kernel.BootMinute}:{Kernel.BootSecond}");
+                    Console.WriteLine($"System sprog     :  {Kernel.Lang}");
+                    Console.WriteLine("Udviklet af      :  Abdirahiim Yassin");
                     break;
                 case "so":
                     Console.WriteLine($"Magaca computer ka             :  {Kernel.ComputerName}");
-                    Console.WriteLine("OS               :  ShadowOS");
-                    Console.WriteLine($"OS Version       :  {Kernel.CurrentVersion}");
-                    Console.WriteLine($"RAM ka oo dhameystiran     :  {SystemInfo.GetAmountRAM()}");
-                    Console.WriteLine($"Maskaxda        :  {SystemInfo.GetCPUDetails()}");
-                    Console.WriteLine($"Goorta la daaray :  {Kernel.BootHour}:{Kernel.BootMinute}:{Kernel.BootSecond}");
-                    Console.WriteLine($"Luuqada system ka    :  {Kernel.Lang}");
-                    Console.WriteLine("Waxa sameeyey     :  Abdirahiim Yassin");
+                    Console.WriteLine("OS                             :  ShadowOS");
+                    Console.WriteLine($"OS Version                     :  {Kernel.CurrentVersion}");
+                    Console.WriteLine($"RAM ka oo dhameystiran         :  {SystemInfo.GetAmountRAM()}");
+                    Console.WriteLine($"Maskaxda                       :  {SystemInfo.GetCPUDetails()}");
+                    Console.WriteLine($"Goorta la daaray               :  {Kernel.BootHour}:{Kernel.BootMinute}:{Kernel.BootSecond}");
+                    Console.WriteLine($"Luuqada system ka              :  {Kernel.Lang}");
+                    Console.WriteLine("Waxa sameeyey                  :  Abdirahiim Yassin");
                     break;
             }
         }
@@ -131,16 +131,16 @@ namespace Shadow_OS.Translation
                     break;
 
                 case "da":
-                    Console.WriteLine($"Volume Navn      :  {Kernel.PrimaryVolumeLabel}");
-                    Console.WriteLine($"root              :  {Kernel.PrimaryDrive}");
-                    Console.WriteLine("Samlet lagerplads     :  " + Kernel.PrimaryDrive.TotalSize / 1024 / 1024 + " Megabytes");
-                    Console.WriteLine("Tilgaengelig lagerplads :  " + Kernel.PrimaryDrive.AvailableFreeSpace / 1024 / 1024 + " Megabytes");
+                    Console.WriteLine($"Volume Navn               :  {Kernel.PrimaryVolumeLabel}");
+                    Console.WriteLine($"root                      :  {Kernel.PrimaryDrive}");
+                    Console.WriteLine("Samlet lagerplads         :  " + Kernel.PrimaryDrive.TotalSize / 1024 / 1024 + " Megabytes");
+                    Console.WriteLine("Tilgaengelig lagerplads   :  " + Kernel.PrimaryDrive.AvailableFreeSpace / 1024 / 1024 + " Megabytes");
                     break;
                 case "so":
-                    Console.WriteLine($"Magaca Volume ka      :  {Kernel.PrimaryVolumeLabel}");
-                    Console.WriteLine($"root              :  {Kernel.PrimaryDrive}");
-                    Console.WriteLine("Qaadka oo dhameystiran     :  " + Kernel.PrimaryDrive.TotalSize / 1024 / 1024 + " Megabytes");
-                    Console.WriteLine("Inta qaadka ka banaan :  " + Kernel.PrimaryDrive.AvailableFreeSpace / 1024 / 1024 + " Megabytes");
+                    Console.WriteLine($"Magaca Volume ka        :  {Kernel.PrimaryVolumeLabel}");
+                    Console.WriteLine($"root                    :  {Kernel.PrimaryDrive}");
+                    Console.WriteLine("Qaadka oo dhameystiran  :  " + Kernel.PrimaryDrive.TotalSize / 1024 / 1024 + " Megabytes");
+                    Console.WriteLine("Inta qaadka ka banaan   :  " + Kernel.PrimaryDrive.AvailableFreeSpace / 1024 / 1024 + " Megabytes");
                     break;
             }
         }
